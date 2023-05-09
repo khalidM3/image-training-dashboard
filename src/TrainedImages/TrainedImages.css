@@ -1,0 +1,4 @@
+.TagFiltersContainer {
+    display: flex;
+    flex-wrap: wrap;
+}

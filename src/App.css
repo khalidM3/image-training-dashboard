@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border-bottom: 2px solid var(--black);
+  justify-content: start;
+  align-items: center;
+  padding: 10px 40px 0px 40px;
+  background-color: var(--black);
+  color: var(--grey1);
+}
+
+
+.Header svg {
+  height: 10px;
+}
+
+.Header_NavContainer {
+  width: calc(100% - 200px);
+}
+
+.Header_NavItem {
+  color: var(--grey1);
+  font-weight: bold;
+  border-bottom: none;
+  padding: 14px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.Header_NavItem:hover {
+  color: var(--red);
+}
+
+.Header_NavItem.active {
+  color: var(--red); 
+  border-bottom: 3px solid var(--red);
+}
+
+
+.Content {
+  height: calc(100vh - 70px);
+  overflow: scroll;
+  padding-top: 20px;
+}
+
+.ImagesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+

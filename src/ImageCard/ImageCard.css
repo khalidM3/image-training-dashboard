@@ -1,0 +1,44 @@
+
+.ImageCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    width: 320px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px -5px #BAC5E4;
+  }
+  
+  .ImageCard_imgContainer {
+    width: 320px;
+    height: 180px;
+    background-color: lightgrey;
+    position: relative;
+  }
+  
+  
+  .ImageCard_BoundingBox {
+    position: absolute;
+    z-index: 1000;
+    border-width: 1px;
+    border-style: solid;
+    border: 1px solid  rgb(0, 182, 0);
+    background-color: rgba(68, 240, 68, 0.267);
+  }
+  
+  
+  .ImageCard_details {
+    display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .ImageCard_name {
+    font-weight: bold;
+    color: var(--grey2);
+    margin-right: 10px;
+  }
+  

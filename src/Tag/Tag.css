@@ -1,0 +1,20 @@
+
+.Tag {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #e9eaef;
+    color:  #8b909c
+
+  }
+
+.Tag:hover {
+    color: #a0a6b5;
+}
